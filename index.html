@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--           Css Styles            -->
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+   <title>Gallery</title>
+</head>
+<body>
+    <div class="main-container">
+
+        <div class="modalmain" id="fulImgBox">
+            <div class="bgmodal" id="bgmodal" onclick="closeImg()"></div>
+            <div class="container--img--modal modalimg">
+                <img src="images/01.jpg" id="fulImg" alt="">
+                <i class="fi fi-br-cross close-active" onclick="closeImg()" ></i>
+
+                <div class="slide">
+
+                    <i class="fi fi-br-angle-left btn-left" onclick="prev"></i>
+                    <i class="fi fi-br-angle-right btn-right" onclick="next"></i>
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="title">
+            <h1>Gallery</h1>
+        </div>
+
+        <div class="se-title">
+            <h2>Free stock photos</h2>
+        </div>
+
+        <div class="container-img" id="containerslide">
+
+            <picture class="images">
+                <img src="images/01.jpg" alt="" class="imgslide" onclick="openFulImg(this.src)">
+            </picture>
+            <picture class="images">
+                <img src="images/02.jpg" alt="" class="imgslide" onclick="openFulImg(this.src)">
+            </picture>
+            <picture class="images">
+                <img src="images/03.jpg" alt="" class="imgslide" onclick="openFulImg(this.src)">
+            </picture>
+            <picture class="images">
+                <img src="images/04.jpg" alt="" class="imgslide" onclick="openFulImg(this.src)">
+            </picture>
+            <picture class="images">
+                <img src="images/05.jpg" alt="" class="imgslide" onclick="openFulImg(this.src)">
+            </picture>
+            <picture class="images">
+                <img src="images/06.jpg" alt="" class="imgslide" onclick="openFulImg(this.src)">
+            </picture>
+            <picture class="images">
+                <img src="images/07.jpg" alt="" class="imgslide" onclick="openFulImg(this.src)">
+            </picture>
+            <picture class="images">
+                <img src="images/08.jpg" alt="" class="imgslide" onclick="openFulImg(this.src)">
+            </picture>
+            <picture class="images">
+                <img src="images/09.jpg" alt="" class="imgslide" onclick="openFulImg(this.src)">
+            </picture>
+            <picture class="images">
+                <img src="images/10.jpg" alt="" class="imgslide" onclick="openFulImg(this.src)">
+            </picture>
+            <picture class="images">
+                <img src="images/11.jpg" alt="" class="imgslide" onclick="openFulImg(this.src)">
+            </picture>
+            <picture class="images">
+                <img src="images/12.jpg" alt="" class="imgslide" onclick="openFulImg(this.src)">
+            </picture>
+            <picture class="images">
+                <img src="images/13.jpg" alt="" class="imgslide" onclick="openFulImg(this.src)">
+            </picture>
+            <picture class="images">
+                <img src="images/14.jpg" alt="" class="imgslide" onclick="openFulImg(this.src)">
+            </picture>
+
+
+        </div>
+    </div>
+
+    <!--        scripts        -->
+    <script src="script.js"></script>
+</body>
+</html>
